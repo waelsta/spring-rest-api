@@ -58,6 +58,7 @@ public class StudentServiceImpl implements StudentService {
                 .lastName(studentDto.getLastName())
                 .email(studentDto.getEmail())
                 .password(studentDto.getPassword())
+                .id(studentDto.getId())
                 .build();
     }
 
@@ -67,6 +68,7 @@ public class StudentServiceImpl implements StudentService {
                 .lastName(student.getLastName())
                 .email(student.getEmail())
                 .password(student.getPassword())
+                .id(student.getId())
                 .build();
     }
 }
